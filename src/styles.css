@@ -1,1 +1,61 @@
-/* You can add global styles to this file, and also import other style files */
+.customTAC{
+  text-align: center;
+}
+.customBg{
+  background-color: #0367b5 ;
+  height: 950px!important;
+
+}
+.customTitle{
+  font-size: 1.6rem;
+}
+.customInput{
+  border-radius: 10px;
+  border: 1px solid lightgray;
+  width: 100%;
+}
+.customSvg{
+  fill: #0367b5;
+}
+.customSvg:hover{
+  fill: blue;
+}
+.customBtn{
+  color: white!important;
+  padding-right: 20px;
+  padding-left: 20px;
+}
+.customBtn{
+  position: absolute;
+  top: 6px;
+  right: 50px;
+  z-index: 1000;
+}
+.customBtnBis{
+  color: white!important;
+}
+.customTitleAdd{
+  font-size: 1.4rem;
+}
+
+.customTAC{
+  text-align: center;
+}
+.customTAL{
+  text-align: left;
+}
+.customTAR{
+  text-align: right;
+}
+.customTitleCard{
+  font-size: 1.4rem;
+  font-family: 'Baskervville', serif;
+  font-weight: bold;
+}
+.customTitleCardBis{
+  font-size: 1.2rem;
+  font-style: italic;
+}
+.customTitleCardLitle{
+  font-size: 1rem;
+}

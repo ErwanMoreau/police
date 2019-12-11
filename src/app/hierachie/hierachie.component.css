@@ -1,0 +1,17 @@
+.card-img-top{
+  width: 90px!important;
+  margin-left: 100px;
+}
+.customTitleHie{
+  font-size: 1rem;
+  font-family: "Baskervville", serif;
+  font-weight: bold;
+
+}
+.customTitleHieBis{
+  font-size: 0.8rem;
+  font-family: "Baskervville", serif;
+}
+.card-title{
+  font-weight: bold;
+}

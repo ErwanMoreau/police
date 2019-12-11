@@ -1,0 +1,83 @@
+<div class="container mt-5">
+  <form  (submit)="AddUser($event)">
+    <div class="card">
+      <div class="card-header">
+        <div class="row mb-2">
+          <div class="col-md-12">
+            <h1 class="customTitleAdd">Ajouter un policier</h1>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-md-6">
+            <div class="input-group mb-3">
+              <div class="input-group-prepend">
+                <label class="input-group-text" for="inputSelectgrade">Grade</label>
+              </div>
+              <select class="custom-select" name="inputSelectgrade" id="id_grade">
+                <option selected>Choose...</option>
+                <option value="1">Choose 1...</option>
+                <option value="2">Choose 2...</option>
+                <!-- <option *ngfor="grade" value="{{grade.id}}">{{ grade.label}}</option> -->
+              </select>
+            </div>
+          </div>
+          <div class="col-md-6">
+            <div class="input-group mb-3">
+              <div class="input-group-prepend">
+                <span class="input-group-text" id="inputMatricule">Matricule</span>
+              </div>
+              <input type="text" id="matricule" name="inputMatricule" class="form-control" aria-label="inputMatricule" aria-describedby="inputMatricule">
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="card-body">
+        <!-- Firstname Lastname -->
+        <div class="row">
+          <div class="col-md-6">
+            <div class="input-group mb-3">
+              <div class="input-group-prepend">
+                <span class="input-group-text" id="inputFirstName">Nom</span>
+              </div>
+              <input type="text" id="nom" name="inputFirstName" class="form-control" aria-label="inputFirstName" aria-describedby="inputFirstName">
+            </div>
+          </div>
+          <div class="col-md-6">
+            <div class="input-group mb-3">
+              <div class="input-group-prepend">
+                <span class="input-group-text" id="inputLastName">Prénom</span>
+              </div>
+              <input type="text" id="prenom" name="inputLastName" class="form-control" aria-label="inputLastName" aria-describedby="inputLastName">
+            </div>
+          </div>
+        </div>
+        <!-- Email And Generate Password -->
+        <div class="row">
+          <div class="col-md-6">
+            <div class="input-group mb-3">
+              <div class="input-group-prepend">
+                <span class="input-group-text" id="inputEmail">email @</span>
+              </div>
+              <input type="text" id="email" name="inputEmail" class="form-control" aria-label="inputEmail" aria-describedby="inputEmail">
+            </div>
+          </div>
+          <div class="col-md-6">
+            <div class="input-group mb-3">
+              <div class="input-group-prepend">
+                <button class="btn btn-outline-secondary" (click)="generate()" type="button" id="inputPassword">Password</button>
+              </div>
+              <input type="text" id="password" name="inputPassword" [value]="mdp" class="form-control" aria-label="inputPassword" aria-describedby="inputPassword">
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="card-footer">
+        <div class="row">
+          <div class="col-md-12 customTAR">
+            <button type="submit" class="btn btn-primary">Ajouter un utilisateur</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </form>
+</div>

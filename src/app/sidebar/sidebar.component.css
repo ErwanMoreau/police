@@ -1,0 +1,36 @@
+.customH1{
+  font-size: 1.2rem;
+  color: white;
+}
+.customH1Bis{
+  font-size: 1rem;
+  color: white;
+}
+.customMt-5{
+  margin-top: 6rem!important;
+}
+.customLink{
+  text-decoration: none;
+}
+.customColorSvg{
+  fill: white;
+}
+.customLink:hover{
+  cursor: pointer;
+  color: lightgray;
+}
+.customColorSvg:hover{
+  fill: lightgray ;
+  cursor: pointer;
+}
+.customDivider{
+  border-top: 3px solid lightgray;
+  width: 80%;
+}
+.customPos{
+  position: absolute;
+  z-index: 20;
+  top: 5px;
+  left: 30px;
+  cursor: pointer;
+}

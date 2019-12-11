@@ -1,0 +1,120 @@
+<div class="container-fluid mt-4">
+  <div class="container">
+    <form action="">
+      <div class="card">
+        <div class="card-header">
+          <div class="row">
+            <div class="col-md-12">
+              <h1 class="customTitleCard">Nouveaux Casier</h1>
+            </div>
+          </div>
+        </div>
+        <div class="card-body">
+          <div class="row">
+            <div class="col-md-6">
+              <div class="input-group flex-nowrap">
+                <div class="input-group-prepend">
+                  <span class="input-group-text" id="firstname">Prénom</span>
+                </div>
+                <input type="text" class="form-control" name="firstname" placeholder="prénom" aria-label="firstname" aria-describedby="firstname">
+              </div>
+            </div>
+            <div class="col-md-6">
+              <div class="input-group flex-nowrap">
+                <div class="input-group-prepend">
+                  <span class="input-group-text" id="lastname">Nom</span>
+                </div>
+                <input type="text" class="form-control" name="lastname" placeholder="nom" aria-label="lastname" aria-describedby="lastname">
+              </div>
+            </div>
+          </div>
+          <div class="row mt-5">
+            <div class="col-md-6">
+              <div class="input-group mb-3">
+                <div class="input-group-prepend">
+                  <button (click)="generate()" class="btn btn-outline-secondary" type="button" id="numerosCasier">Numéros de Casier</button>
+                </div>
+                <input type="text" [value]="mdp" class="form-control" placeholder="" aria-label="numerosCasier" aria-describedby="numerosCasier">
+              </div>
+            </div>
+            <div class="col-md-6">
+              <div class="input-group flex-nowrap">
+                <div class="input-group-prepend">
+                  <span class="input-group-text" id="addon-telephone">Numéros de téléphone</span>
+                </div>
+                <input type="text" class="form-control" name="telephone" placeholder="numéros de téléphone" aria-label="telephone" aria-describedby="addon-telephone">
+              </div>
+            </div>
+          </div>
+          <div class="row mt-5">
+            <div class="col-md-6">
+              <h1 class="customTitleCard">Véhicules</h1>
+              <div class="row">
+                <div class="col-md-12">
+                  <div class="input-group mb-3">
+                    <div class="input-group-prepend">
+                      <span class="input-group-text" id="carOne">Véhicule n°1</span>
+                    </div>
+                    <input type="text" class="form-control" placeholder="Véhicule n°1" aria-label="carOne" aria-describedby="carOne">
+                  </div>
+                </div>
+                <div class="col-md-12">
+                  <div class="input-group mb-3">
+                    <div class="input-group-prepend">
+                      <span class="input-group-text" id="carTwo">Véhicule n°2</span>
+                    </div>
+                    <input type="text" class="form-control" placeholder="Véhicule n°2" aria-label="carTwo" aria-describedby="carTwo">
+                  </div>
+                </div>
+                <div class="col-md-12">
+                  <div class="input-group mb-3">
+                    <div class="input-group-prepend">
+                      <span class="input-group-text" id="carTree">Véhicule n°3</span>
+                    </div>
+                    <input type="text" class="form-control" placeholder="Véhicule n°3" aria-label="carTree" aria-describedby="carTree">
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-6">
+              <h1 class="customTitleCard">Informations / Habitudes</h1>
+              <div class="row">
+                <div class="col-md-12">
+                  <div class="input-group mb-3">
+                    <div class="input-group-prepend">
+                      <span class="input-group-text" id="infOne">Informations n°1</span>
+                    </div>
+                    <input type="text" class="form-control" placeholder="Informations n°1" aria-label="infOne" aria-describedby="infOne">
+                  </div>
+                </div>
+                <div class="col-md-12">
+                  <div class="input-group mb-3">
+                    <div class="input-group-prepend">
+                      <span class="input-group-text" id="infTwo">Informations n°2</span>
+                    </div>
+                    <input type="text" class="form-control" placeholder="Informations n°2" aria-label="infTwo" aria-describedby="infTwo">
+                  </div>
+                </div>
+                <div class="col-md-12">
+                  <div class="input-group mb-3">
+                    <div class="input-group-prepend">
+                      <span class="input-group-text" id="infTree">Informations n°3</span>
+                    </div>
+                    <input type="text" class="form-control" placeholder="Informations n°3" aria-label="infTree" aria-describedby="infTree">
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="card-footer">
+          <div class="row">
+            <div class="col-md-12 customTAR">
+              <button class="btn btn-primary ">Nouveaux Casier</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </form>
+  </div>
+</div>

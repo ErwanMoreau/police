@@ -1,0 +1,45 @@
+<div class="container-fluid mt-3">
+  <form action="">
+    <div class="card">
+      <div class="card-header">
+        <div class="row mb-3">
+          <div class="col-md-12">
+            <h1 class="customTitle">Edit de rapport</h1>
+          </div>
+        </div>
+
+        <div class="row">
+          <div class="col-md-6">
+            <div class="input-group mb-3">
+              <div class="input-group-prepend">
+                <span class="input-group-text" id="inputGroup-sizing-default">Titre</span>
+              </div>
+              <input type="text" class="form-control" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-default">
+            </div>
+          </div>
+          <div class="col-md-6">
+            <div class="input-group mb-3">
+              <div class="input-group-prepend">
+                <label class="input-group-text" for="inputGroupSelect01">Type de rapport</label>
+              </div>
+              <select class="custom-select" id="inputGroupSelect01">
+                <option selected>Choose...</option>
+                <option value="1">Dêpot de plainte</option>
+                <option value="2">Rapport de Mission</option>
+                <option value="3">Three</option>
+              </select>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="card-body">
+        <ckeditor class="customSize" [editor]="Editor" data="" (ready)="onReady($event)"></ckeditor>
+      </div>
+      <div class="card-footer">
+        <div class="col-md-12">
+          <button class="btn btn-primary">Ajouter le Rapport</button>
+        </div>
+      </div>
+    </div>
+  </form>
+</div>
